@@ -1,0 +1,201 @@
+:host {
+    display: block;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  h1{
+    color: #790808;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  h3 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  // Định dạng cho phần Data Binding
+  .data-binding {
+    background-color: #e0f7fa; 
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    text-align: center; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  
+    input[type="text"] {
+      width: 45%;
+      padding: 10px;
+      margin: 8px 5px; 
+      border: none;
+      border-radius: 8px;
+      background-color: #ffffff; 
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); 
+    }
+  
+    button {
+      padding: 10px 20px;
+      background-color: #007bff; 
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      margin: 0 5px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); 
+  
+      &:hover {
+        background-color: #0056b3; 
+      }
+    }
+  }
+  
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+  input[type="email"],
+  input[type="password"],
+  textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 12px;
+    background-color: #f1f1f1;
+    font-size: 16px;
+    resize: none;
+  }
+  
+  textarea.message-box {
+    height: 100px;
+  }
+  
+  .send-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #6a0dad; 
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+  
+    &:hover {
+      background-color: #5e009c; 
+    }
+  }
+  
+  // Định dạng cho nút Login trong Reactive Form
+  .login-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #28a745; 
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+    transition: background-color 0.3s; 
+  
+    &:hover {
+      background-color: #218838; 
+    }
+  
+    &:disabled {
+      background-color: #ccc; 
+      cursor: not-allowed;
+    }
+  }
+  
+  // Style cho các form
+  form {
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  small {
+    color: red;
+    display: block;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+ 
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+  
+    label {
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+  }
+  
+  
+  hr {
+    margin: 40px 0;
+    border: none;
+    border-top: 1px solid #ddd;
+  }
+  
+  @media (min-width: 768px) {
+    form {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
+  
